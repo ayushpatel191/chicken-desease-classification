@@ -1,0 +1,13 @@
+artifacts_root: artifacts
+
+# data_ingestion:
+#   root_dir: artifacts/data_ingestion
+#   source_URL: https://github.com/ayushpatel191/chicken-desease-classification/raw/refs/heads/main/Chicken-fecal-images.zip
+#   local_data_file: artifacts/data_ingestion/data.zip
+#   unzip_dir: artifacts/data_ingestion
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://raw.githubusercontent.com/ayushpatel191/chicken-desease-classification/main/Chicken-fecal-images.zip
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
