@@ -151,3 +151,58 @@ Source-Age: 169
 [2025-05-08 23:21:33,322: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
+[2025-05-08 23:37:49,653: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-08 23:37:49,663: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-08 23:37:49,668: INFO: common: created directory at: artifacts]
+[2025-05-08 23:44:25,288: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-08 23:44:25,291: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-08 23:44:25,292: INFO: common: created directory at: artifacts]
+[2025-05-08 23:44:25,293: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-05-08 23:44:35,055: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-05-08 23:44:35,191: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-05-09 00:00:07,279: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-05-09 00:00:07,280: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-09 00:00:07,281: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-09 00:00:07,282: INFO: common: created directory at: artifacts]
+[2025-05-09 00:00:07,283: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-05-09 00:00:08,338: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 0B53:1712AD:64BD3:CE0C3:681CEE7B
+Accept-Ranges: bytes
+Date: Thu, 08 May 2025 18:30:07 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10227-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1746729008.706341,VS0,VE274
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: b1f3ffe6ff199074b139863109c8bc4be5c86380
+Expires: Thu, 08 May 2025 18:35:07 GMT
+Source-Age: 0
+
+]
+[2025-05-09 00:00:08,684: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-05-09 00:00:08,685: INFO: main: *******************]
+[2025-05-09 00:00:08,685: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-05-09 00:00:08,686: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-09 00:00:08,687: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-09 00:00:08,688: INFO: common: created directory at: artifacts]
+[2025-05-09 00:00:08,689: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-05-09 00:00:09,008: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-05-09 00:00:09,132: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-05-09 00:00:09,228: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
