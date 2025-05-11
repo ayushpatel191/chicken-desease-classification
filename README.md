@@ -73,3 +73,5 @@ AWS_REGION = us-north-1
 AWS_ECR_LOGIN_URI = demo>>  
 
 ECR_REPOSITORY_NAME = simple-app
+
+AZURE-CICD-Deployment-with-Github-Actions
